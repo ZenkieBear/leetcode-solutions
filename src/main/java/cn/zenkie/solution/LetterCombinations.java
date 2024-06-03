@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * The solution for leetcode-17: Letter Combinations of a Phone Number
+ */
 class LetterCombinations {
 
     final Map<Integer, String> keymap = new HashMap<>();
