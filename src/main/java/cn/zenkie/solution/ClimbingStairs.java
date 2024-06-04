@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class ClimbingStairs {
 
-    private Map<Integer, Integer> memo = new HashMap<>();
+    private final Map<Integer, Integer> memo = new HashMap<>();
 
     public int climbStairs(int n) {
         if (n == 1) return 1;

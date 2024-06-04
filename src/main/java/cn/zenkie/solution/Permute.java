@@ -36,8 +36,7 @@ public class Permute {
             res = permute(set);
 
             // Concat num and results
-            for (int j = 0; j < res.size(); j++) {
-                List<Integer> subPermute = res.get(j);
+            for (List<Integer> subPermute : res) {
                 subPermute.add(num);
                 dst.add(subPermute);
             }

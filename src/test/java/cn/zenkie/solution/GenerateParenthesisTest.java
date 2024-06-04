@@ -2,8 +2,6 @@ package cn.zenkie.solution;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class GenerateParenthesisTest {
 
     private final GenerateParenthesis solution = new GenerateParenthesis();
