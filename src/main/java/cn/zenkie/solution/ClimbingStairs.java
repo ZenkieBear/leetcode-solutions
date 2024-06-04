@@ -3,6 +3,9 @@ package cn.zenkie.solution;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Solution for LeetCode-70: Climbing Stairs
+ */
 public class ClimbingStairs {
 
     private final Map<Integer, Integer> memo = new HashMap<>();
